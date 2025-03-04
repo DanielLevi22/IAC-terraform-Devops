@@ -1,0 +1,18 @@
+# Diretórios e arquivos gerados pelo Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Arquivos de estado do Terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform
+# Planos de execução do Terraform
+*.tfplan
+
+# Logs e arquivos temporários
+crash.log
+*.log
+localstack-cli-4.2.0-linux-amd64-onefile.tar
+# Chaves privadas (caso use Terraform para gerenciar chaves SSH, AWS, etc.)
+*.pem
+*.key
